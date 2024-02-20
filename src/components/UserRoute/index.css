@@ -3,6 +3,7 @@
   margin-top: 0;
   display: flex;
   justify-content: space-between;
+  background-color:#02024B;
 }
 .user-li {
   list-style-type: none;
