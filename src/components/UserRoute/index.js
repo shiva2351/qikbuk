@@ -25,7 +25,7 @@ class UserRoute extends Component {
               </li>
               {List.map((eachItem) => (
                 <li key={eachItem.name}>
-                  <ul className="User-ul">
+                  <ul className="User-uls">
                     <li className="user-li">1</li>
                     <li className="user-li">{eachItem.name}</li>
                     <li className="user-li">{eachItem.number}</li>
