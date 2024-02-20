@@ -1,0 +1,9 @@
+.User-ul {
+  padding-left: 0;
+  margin-top: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.user-li {
+  list-style-type: none;
+}

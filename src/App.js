@@ -17,7 +17,7 @@ class App extends Component {
     ],
   };
   UpdateList = (add) => {
-    this.setState((preState) => ({ List: [...preState, add] }));
+    this.setState((preState) => ({ List: [...preState.List, add] }));
   };
 
   render() {
