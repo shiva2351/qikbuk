@@ -13,12 +13,12 @@ class UserRoute extends Component {
               <li>
                 <li>
                   <ul className="User-ul">
-                    <li className="user-li">sl no.</li>
-                    <li className="user-li">name</li>
-                    <li className="user-li">Phone number</li>
+                    <li className="user-li">S No.</li>
+                    <li className="user-li">Name</li>
+                    <li className="user-li">Phone Number</li>
                     <li className="user-li">Role</li>
-                    <li className="user-li">UserId</li>
-                    <li className="user-li">password</li>
+                    <li className="user-li">User ID</li>
+                    <li className="user-li">Password</li>
                     <li className="user-li">Action</li>
                   </ul>
                 </li>
