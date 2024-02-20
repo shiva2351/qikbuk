@@ -1,0 +1,7 @@
+.Trade {
+  border: 2px solid green;
+  display: flex;
+}
+.Trade-card {
+  width: 80vw;
+}

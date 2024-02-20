@@ -1,0 +1,32 @@
+.Side {
+  border: 2px solid blue;
+  height: 100vh;
+  width: 15vw;
+}
+.Side-ul {
+  padding-left: 0;
+  margin-top: 0;
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.Side-uls {
+  padding-left: 0;
+  margin-top: 0;
+  border: 2px solid green;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.Side-li {
+  list-style-type: none;
+}
+
+.image-pro {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+}

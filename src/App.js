@@ -1,25 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
+import { Component } from "react";
+import UserContext from "./context/UserContext";
+import "./App.css";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import TradeRoute from "./components/TradeRoute";
+
+class App extends Component {
+  state = {
+    List: [
+      {
+        name: "shiva",
+        number: 23232,
+        role: "office",
+        userId: "shikmr",
+        password: 2323,
+      },
+    ],
+  };
+  UpdateList = (add) => {
+    this.setState((preState) => ({ List: [...preState, add] }));
+  };
+
+  render() {
+    const { List } = this.state;
+    return (
+      <UserContext.Provider
+        value={{
+          UpdateList: this.UpdateList,
+          List,
+        }}
+      >
+        <div className="App">
+          <TradeRoute />
+        </div>
+      </UserContext.Provider>
+    );
+  }
 }
 
 export default App;
