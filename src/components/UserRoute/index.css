@@ -4,7 +4,12 @@
   display: flex;
   justify-content: space-between;
   background-color:#02024B;
-  border-radius:15px;
+  border-radius:11px;
+  padding-left:20px;
+  padding-top:5px;
+  padding-right:20px;
+  padding-bottom:5px;
+  color:white;
 }
 
 .User-uls {
