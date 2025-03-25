@@ -19,7 +19,7 @@ class UserRoute extends Component {
                     <li className="user-li">Role</li>
                     <li className="user-li">User ID</li>
                     <li className="user-li">Password</li>
-                    <li className="user-li">Action</li>
+                    <li className="user-li">Active</li>
                   </ul>
                 </li>
               </li>
@@ -32,7 +32,7 @@ class UserRoute extends Component {
                     <li className="user-li">{eachItem.role}</li>
                     <li className="user-li">{eachItem.userId}</li>
                     <li className="user-li">{eachItem.password}</li>
-                    <li className="user-li">Action</li>
+                    <li className="user-li">Active</li>
                   </ul>
                 </li>
               ))}
